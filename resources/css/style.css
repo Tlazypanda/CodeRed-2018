@@ -1,3 +1,7 @@
+/*
+    Website developed by Aayush Joglekar for CodeRed | Aparoksha'18. www.github.com/aayushjoglekar
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -140,6 +144,10 @@ header {
     margin-top: 20px;
 }
 
+/*
+    Website developed by Aayush Joglekar for CodeRed | Aparoksha'18. www.github.com/aayushjoglekar
+*/
+
 .tagline {
     text-transform: uppercase;
     color: white;
@@ -199,7 +207,7 @@ h2:after {
 }
 
 .description {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 40px 0;
     font-size: 125%;
@@ -310,3 +318,7 @@ footer .intext {
 .title-underline.animated {
     opacity: 1;
 }
+
+/*
+    Website developed by Aayush Joglekar for CodeRed | Aparoksha'18. www.github.com/aayushjoglekar
+*/
