@@ -25,6 +25,8 @@ $(document).ready(function () {
         .not('[href="#"]')
         .not('[href="#0"]')
         .click(function (event) {
+
+            
             // On-page links
             if (
                 location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
@@ -54,4 +56,13 @@ $(document).ready(function () {
                 }
             }
         });
+
+       
+});
+
+$('ul li').hover(function(){
+    $(this).addClass('animated jello');
+},
+function(){
+    $(this).removeClass('animated jello');
 });
