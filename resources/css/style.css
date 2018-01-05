@@ -1,190 +1,227 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: 'Lato', sans-serif;
-    font-size:20px;
-    font-weight:300;
-    color:white;
-    
-    
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
 }
 
-.row{
-    width:90%;
-    margin:0 auto;
-   
+.row {
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
 }
 
-section{
-    padding:80px 0;
+section {
+    padding: 80px 0;
     position: relative;
 }
 
-header{
-    height:100vh;
-    width:100%;
-    position:relative;
+header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("images/header-wallpaper.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     overflow: hidden;
-
-
 }
 
-.intext{
+.intext {
     display: inline-block;
-    height:20px;
-    width:auto;
-   
-
-    
-    
+    height: 20px;
+    width: auto;
 }
 
-
-
-.title{
-    height:auto;
-    width:800px;
+.title {
+    height: auto;
+    width: 800px;
     text-align: center;
     position: absolute;
-    top:50%;
-    left:52%;
-    transform:translate(-50%, -50%);
-
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
 }
 
-.title img{
-    
-    width:80%;
+.title img {
+    width: 80%;
 }
 
-.title-underline{
-    height:2px;
-    width:60%;
-    margin-left:45%;
-    margin-top:5px;
+.title-underline {
+    height: 2px;
+    width: 60%;
+    margin-left: 45%;
+    margin-top: 5px;
     transform: translateX(-50%);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
-.title .row{
-    margin-left:2%;
-    margin-top:20px;
+.title .row {
+    margin-left: 2%;
+    margin-top: 20px;
 }
 
-.tagline{
+.tagline {
     text-transform: uppercase;
     color: white;
-    font-weight:300;
-    font-size:125%;
-    margin:0 auto;
+    font-weight: 300;
+    font-size: 125%;
+    margin: 0 auto;
     letter-spacing: 2px;
     visibility: hidden;
-   
 }
 
-.bar{
+.bar {
     position: absolute;
-    z-index:1;
-    width:100%;
-    height:6px;
-    background: #F00000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    z-index: 1;
+    width: 100%;
+    height: 6px;
+    background: #F00000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.top{
-    top:0;
+.top {
+    top: 0;
 }
 
-.bottom{
-    bottom:0;
+.bottom {
+    bottom: 0;
 }
 
-h2{
-    font-size:200%;
-    font-weight:100;
-    color:white;
+h2 {
+    font-size: 200%;
+    font-weight: 100;
+    color: white;
 }
 
-h2:after{
-    content:'';
-    display:block;
-    margin:0 auto;
-    height:2px;
-    width:20%;
-    margin-top:10px;
+h2:after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 20%;
+    margin-top: 10px;
     background-image: linear-gradient(to right, rgba(240, 0, 0, 0.1), rgba(240, 0, 0, 0.9), rgba(240, 0, 0, 0.1));
-
 }
+
 
 /* SECTION-DETAILS  */
 
-.section-details{
-    height:100vh;
-    width:100%;
-    background-color:black;
+.section-details {
+    width: 100%;
+    background-color: black;
+    padding: 80px 0 60px 0;
 }
 
-.description{
-    width:70%;
-    margin:0 auto;
-    padding:40px 0;
-    font-size:125%;
-   
+.description {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-size: 125%;
 }
 
-.round-desc{
-    font-size:130%;
+.round-desc {
+    font-size: 130%;
 }
 
-.round:first-of-type{
-    border-right:solid 2px #F00000;
+.round:first-of-type {
+    border-right: solid 2px #F00000;
 }
 
-.rounds i{
-    font-size:300%;
-    color:#F00000;
+.rounds i {
+    font-size: 300%;
+    color: #F00000;
 }
 
-.rounds.row{
-    padding:30px 0;
+.rounds.row {
+    padding: 30px 0;
 }
 
-.invite{
-    width:70%;
-    margin:0 auto;
-    padding:40px 0;
-    font-size:125%;
-    color:white;
+.invite {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-size: 125%;
+    color: white;
 }
 
-.
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #F00000;
+}
+
+.section-contact {
+    background: #F00000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    padding: 40px 0;
+}
+
+.section-contact h2:after {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+}
+
+.section-contact i {
+    margin: 0 20px;
+    font-size: 120%;
+}
+
+.contact-item:link,
+.contact-item:visited {
+    padding: 20px 0 0 0;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+}
+
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-top: 2px solid #F00000;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer .intext {
+    height: 10px;
+}
+
+
 /* ANIMATION */
 
-    .title img{
-        opacity:0;
-        animation-duration: 1.2s;
-    }
+.title img {
+    opacity: 0;
+    animation-duration: 1.2s;
+}
 
-    .title-underline{
-        opacity:0;
-        animation-duration: 2s;
-    }
+.title-underline {
+    opacity: 0;
+    animation-duration: 2s;
+}
 
-    .title img.animated,
-    .title-underline.animated{
-        opacity: 1;
-    }
-
-
-
+.title img.animated,
+.title-underline.animated {
+    opacity: 1;
+}
