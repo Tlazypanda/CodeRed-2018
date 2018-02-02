@@ -13,8 +13,9 @@ $(document).ready(function () {
                     }
                 });
 
-
-
+                setTimeout(function(){
+                    $('.title .btn-full').addClass('animated fadeIn');
+                }, 200);
             }, 500);
         }, 500);
     }, 500);
